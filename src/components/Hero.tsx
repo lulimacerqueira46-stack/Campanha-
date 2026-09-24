@@ -75,14 +75,6 @@ export const Hero: React.FC<HeroProps> = ({
               <span>Tour Virtual 360°</span>
             </button>
 
-            <a
-              href="#abas-regioes"
-              className="px-5 py-3.5 bg-amber-400 hover:bg-amber-300 text-stone-950 font-bold text-sm rounded-xl shadow-xl transition-all flex items-center justify-center gap-2 whitespace-nowrap"
-            >
-              <Sparkles className="w-4 h-4 text-stone-950" />
-              <span>Formulários Mooca · Tatuapé · Vila Ema</span>
-            </a>
-
             <button
               onClick={onScheduleVisit}
               className="px-5 py-3.5 bg-stone-900/90 hover:bg-stone-800 text-stone-100 font-semibold text-sm rounded-xl border border-stone-700/80 backdrop-blur-md transition-all flex items-center justify-center gap-2 whitespace-nowrap"
@@ -100,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=publish-editor"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=dialog"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-3 px-3.5 bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs rounded-xl shadow-lg transition-all flex items-center justify-between group"

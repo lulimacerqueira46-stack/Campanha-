@@ -492,8 +492,8 @@ export const REGION_FORMS: RegionFormItem[] = [
       'Polo gastronômico premiado de São Paulo e proximidade de universidades (São Judas, Anhembi Morumbi)',
       'Mobilidade ágil com conexão expressa ao centro e à Radial Leste'
     ],
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=publish-editor',
-    embedUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?embedded=true',
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=dialog',
+    embedUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=dialog&embedded=true',
     badge: 'Formulário Oficial Mooca'
   },
   {
@@ -529,22 +529,13 @@ export const REGION_FORMS: RegionFormItem[] = [
 // Form links provided by user
 export const INTEREST_FORMS = [
   {
-    id: 'visit-editor',
-    label: 'Agendar Visita ao Modelo Decorado',
-    shortLabel: 'Agendamento de Visita',
-    description: 'Preencha para receber atendimento exclusivo e visita guiada no stand do Tatuapé / Mooca.',
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=publish-editor',
-    embedUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?embedded=true',
-    badge: 'Visita Presencial ou Virtual'
-  },
-  {
     id: 'visit-dialog',
-    label: 'Atendimento Rápido (Modo Diálogo)',
-    shortLabel: 'Atendimento Direto',
-    description: 'Abertura em formato de diálogo rápido para envio de dados e contato prioritário do corretor.',
+    label: 'Agendar Visita ao Decorado & Atendimento Rápido',
+    shortLabel: 'Agendamento de Visita',
+    description: 'Abertura em formato rápido para agendamento de visita guiada e atendimento prioritário dos corretores para Mooca e Tatuapé.',
     url: 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=dialog',
     embedUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=dialog&embedded=true',
-    badge: 'Formato Janela Rápida'
+    badge: 'Visita Presencial ou Stand'
   },
   {
     id: 'catalog-pricing',
@@ -557,7 +548,7 @@ export const INTEREST_FORMS = [
   }
 ];
 
-export const GOOGLE_FORM_VISIT = 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=publish-editor';
+export const GOOGLE_FORM_VISIT = 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=dialog';
 export const GOOGLE_FORM_VISIT_DIRECT = 'https://docs.google.com/forms/d/e/1FAIpQLScd_tzOAqmJLyutUnYuwrRYYqWHqUsh5LWdEQMAQAsmT47vDw/viewform?usp=dialog';
 export const GOOGLE_FORM_CATALOG = 'https://docs.google.com/forms/d/e/1FAIpQLSemHAEVaOna5Ts0fWDyt7-0lMICxS3wfGLfxHaobaQKRIHfwQ/viewform?usp=publish-editor';
 export const GOOGLE_FORM_CATALOG_DIRECT = 'https://docs.google.com/forms/d/e/1FAIpQLSemHAEVaOna5Ts0fWDyt7-0lMICxS3wfGLfxHaobaQKRIHfwQ/viewform?usp=publish-editor';

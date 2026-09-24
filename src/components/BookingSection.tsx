@@ -15,7 +15,7 @@ import {
 } from '../data/studiosData';
 
 export const BookingSection: React.FC = () => {
-  const [selectedFormId, setSelectedFormId] = useState<string>('visit-editor');
+  const [selectedFormId, setSelectedFormId] = useState<string>('visit-dialog');
   const [isIframeLoaded, setIsIframeLoaded] = useState(false);
 
   const currentForm = INTEREST_FORMS.find((f) => f.id === selectedFormId) || INTEREST_FORMS[0];

@@ -41,8 +41,8 @@ export const InterestSection: React.FC<InterestSectionProps> = ({ onOpenModalWit
             </p>
           </div>
 
-          {/* 3 Buttons / Options Cards with User's Links */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Buttons / Options Cards with User's Links */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {INTEREST_FORMS.map((item, idx) => {
               const icons = [Calendar, MessageSquare, FileText];
               const Icon = icons[idx % icons.length];

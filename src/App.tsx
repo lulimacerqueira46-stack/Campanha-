@@ -16,11 +16,11 @@ import { Sparkles } from 'lucide-react';
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalTab, setModalTab] = useState<string>('visit-editor');
+  const [modalTab, setModalTab] = useState<string>('visit-dialog');
   const [tourRoomIndex, setTourRoomIndex] = useState<number>(0);
 
   const handleOpenVisitModal = () => {
-    setModalTab('visit-editor');
+    setModalTab('visit-dialog');
     setIsModalOpen(true);
   };
 
