@@ -1,0 +1,6 @@
+{
+  "name": "Lumina Studios | Apartamentos Modelo & Tour 360°",
+  "description": "Apartamentos modelo studio de 24m² a 54m² na região do Tatuapé, Mooca e Vila Ema com tour virtual 360°, plantas detalhadas e agendamento de visitas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
